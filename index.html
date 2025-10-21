@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Hoja de Vida - Nicolás Gutiérrez Sánchez</title>
+  </head>
+  <body>
+    <div class="cv" id="cv-root">
+      <div class="header">
+        <div class="photo">
+          <img src="img/Foto Hoja de Vida.jpeg" alt="Foto perfil" />
+        </div>
+        <div>
+          <div class="name">Nicolás Gutiérrez Sánchez</div>
+          <div class="role">Tecnólogo en Sistemas Informáticos</div>
+          <div class="contact">
+            📧 nicolasgsanchez05@gmail.com • 📞 3175646302 • 📍 Manizales,
+            Colombia
+          </div>
+        </div>
+      </div>
+
+      <section>
+        <h2>Resumen Profesional</h2>
+        <p>
+          Soy un tecnólogo en sistemas informáticos con formación sólida en
+          desarrollo de software, administración de bases de datos y soporte
+          técnico. Me caracterizo por mi capacidad de aprendizaje rápido,
+          compromiso con la calidad y pasión por la tecnología. Busco una
+          oportunidad para iniciar mi carrera profesional en el área de
+          desarrollo de software o soporte IT, donde pueda aplicar mis
+          conocimientos en programación, infraestructura y automatización,
+          mientras continúo creciendo como profesional.
+        </p>
+      </section>
+
+      <section>
+        <h2>Habilidades Técnicas</h2>
+        <div class="skills">
+          <span class="tag">HTML</span>
+          <span class="tag">CSS</span>
+          <span class="tag">JavaScript</span>
+          <span class="tag">React</span>
+          <span class="tag">Go</span>
+          <span class="tag">Node.js</span>
+          <span class="tag">PostgreSQL</span>
+          <span class="tag">MySQL</span>
+          <span class="tag">Git / GitHub</span>
+          <span class="tag">Postman</span>
+        </div>
+      </section>
+
+      <section>
+        <h2>Habilidades Blandas</h2>
+        <ul>
+          <li>Trabajo en equipo y comunicación asertiva</li>
+          <li>Responsabilidad y compromiso</li>
+          <li>Adaptabilidad y pensamiento crítico</li>
+          <li>Resolución de problemas y atención al detalle</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Educación</h2>
+        <div class="item">
+          <strong>Bachiller Acádemico</strong><br />
+          <span class="muted">Escuela Normal Superior de Caldas — 2022</span>
+        </div>
+
+        <div class="item">
+          <strong>Tecnólogo en Sistemas Informáticos</strong><br />
+          <span class="muted">Universidad de Caldas — 2023 – 2025</span>
+        </div>
+
+        <div class="item">
+          <strong>Ingenieria en Informática (CURSANDO)</strong><br />
+          <span class="muted">Universidad de Caldas — 2025</span>
+        </div>
+      </section>
+
+      <section>
+        <h2>Proyectos Personales</h2>
+        <div class="item">
+          <strong>Coworking App (Proyecto académico)</strong><br />
+          <span class="muted">Go • React • PostgreSQL</span><br />
+          Desarrollo completo de una plataforma web para la gestión de espacios
+          de coworking con backend en Go, frontend en React y base de datos en
+          PostgreSQL. Incluye autenticación JWT, pagos en línea, notificaciones
+          y generación de reportes.
+        </div>
+        <div class="item">
+          <strong>Gestor de Tareas Personal (Proyecto individual)</strong><br />
+          <span class="muted">React • Node.js</span><br />
+          Aplicación web desarrollada para gestionar tareas y productividad
+          personal. Permite crear, editar y eliminar tareas con almacenamiento
+          local y diseño responsivo.
+        </div>
+      </section>
+
+      <section>
+        <h2>Idiomas</h2>
+        <div class="langs">
+          <span class="tag">Español (Nativo)</span>
+          <span class="tag">Inglés (B1-B2)</span>
+        </div>
+      </section>
+
+      <section>
+        <h2>Enlaces</h2>
+        <ul>
+          <li>
+            <strong>LinkedIn:</strong>
+            <a
+              href="https://www.linkedin.com/in/nicol%C3%A1s-guti%C3%A9rrez-s%C3%A1nchez-65a0a6219/"
+              >https://www.linkedin.com/in/nicol%C3%A1s-guti%C3%A9rrez-s%C3%A1nchez-65a0a6219/</a
+            >
+          </li>
+          <li>
+            <strong>GitHub:</strong>
+            <a href="https://github.com/NICKXIX2005"
+              >https://github.com/NICKXIX2005</a
+            >
+          </li>
+        </ul>
+      </section>
+
+      <section>
+  <h2>Descargar PDF</h2>
+  <button
+    id="downloadBtn"
+    style="
+      padding: 10px 14px;
+      border: none;
+      border-radius: 8px;
+      background: var(--accent);
+      color: #fff;
+      cursor: pointer;
+    "
+  >
+    Descargar Hoja de Vida en PDF
+  </button>
+</section>
+
+<!-- Cargar librería html2pdf -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.3/html2pdf.bundle.min.js"></script>
+
+<!-- Cargar tu JS -->
+<script src="js/app.js"></script>
+
+  </body>
+</html>
